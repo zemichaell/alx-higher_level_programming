@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for a in range(0, 8):
-    for b in range(a + 1, 10):
-        print("{:d}{:d}".format(a, b), end=", ")
-print("{:d}{:d}".format(a + 1, b))
+for a in reversed(range(ord("a"), ord("z") + 1)):
+    if a % 2 != 0:
+        a = a - 32
+    print("{:c}".format(a), end="")
