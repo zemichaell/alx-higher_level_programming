@@ -8,4 +8,4 @@ if __name__ == "__main__":
         "." if num == 0 else ":"))
     for a, s in enumerate(argv):
         if a > 0:
-            print("{}: {}".format(a, s))
+            print("{}: {}".format(a, s)))
